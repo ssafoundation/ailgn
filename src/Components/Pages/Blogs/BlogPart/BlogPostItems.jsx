@@ -76,25 +76,25 @@ const BlogPostItems = () => {
         </div>
         <div className="pagination-wrapper">
           <div className="pagination">
-            <a className="prev page-numbers" href="javascript:;">
+            <a className="prev page-numbers" href="#/">
               prev
             </a>
             <span aria-current="page" className="page-numbers current">
               1
             </span>
-            <a className="page-numbers" href="javascript:;">
+            <a className="page-numbers" href="#/">
               2
             </a>
-            <a className="page-numbers" href="javascript:;">
+            <a className="page-numbers" href="#/">
               3
             </a>
-            <a className="page-numbers" href="javascript:;">
+            <a className="page-numbers" href="#/">
               4
             </a>
-            <a className="page-numbers" href="javascript:;">
+            <a className="page-numbers" href="#/">
               5
             </a>
-            <a className="next page-numbers" href="javascript:;">
+            <a className="next page-numbers" href="#/">
               next
             </a>
           </div>
