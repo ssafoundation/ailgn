@@ -85,17 +85,17 @@ const TeamPerson = () => {
                   <img src={require(`./img/${team.img}`).default} alt="thumb" />
                   <ul className="team-social">
                     <li>
-                      <a href={team.facebook} target="_blank">
+                      <a href={team.facebook} target="_blank" rel="noreferrer">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href={team.facebook} target="_blank">
+                      <a href={team.facebook} target="_blank" rel="noreferrer">
                         <i className="fab fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href={team.facebook} target="_blank">
+                      <a href={team.facebook} target="_blank" rel="noreferrer">
                         <i className="fab fa-twitter" />
                       </a>
                     </li>
