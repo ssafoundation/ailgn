@@ -83,7 +83,7 @@ const About = () => {
                 </div>
               </div>
               <div className="about-btn mt-60">
-                <a href="#" className="theme-btn">
+                <a href="#/" className="theme-btn">
                   Explore More <i className="icofont-long-arrow-right"></i>
                 </a>
               </div>

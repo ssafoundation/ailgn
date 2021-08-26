@@ -64,40 +64,40 @@ const BlogSingleBody = () => {
         <div className="blog-tag-links d-flex align-items-center">
           <h5 className="mb-0">Tags:</h5>
           <div className="blog-tag-link">
-            <a href="#">Business,</a>
-            <a href="#">Finance,</a>
-            <a href="#">Consulting,</a>
-            <a href="#">Planing</a>
+            <a href="#/">Business,</a>
+            <a href="#/">Finance,</a>
+            <a href="#/">Consulting,</a>
+            <a href="#/">Planing</a>
           </div>
         </div>
         <ul className="footer-social">
           <li>
-            <a href="#">
+            <a href="#/">
               <i className="fab fa-facebook-f" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#/">
               <i className="fab fa-instagram" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#/">
               <i className="fab fa-twitter" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#/">
               <i className="fab fa-youtube" />
             </a>
           </li>
         </ul>
       </div>
       <div className="blog-single-nxt-prev mb-130">
-        <a href="#">
+        <a href="#/">
           <i className="icofont-arrow-left" />
         </a>
-        <a href="#">
+        <a href="#/">
           <i className="icofont-arrow-right" />
         </a>
       </div>

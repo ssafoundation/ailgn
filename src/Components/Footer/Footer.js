@@ -38,19 +38,19 @@ const Footer = () => {
                     <h4 className="footer-widget-title">Quick Links</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="#">Tips &amp; Tricks</a>
+                        <a href="#/">Tips &amp; Tricks</a>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#/">About Us</a>
                       </li>
                       <li>
-                        <a href="#">Privecy Policy</a>
+                        <a href="#/">Privecy Policy</a>
                       </li>
                       <li>
-                        <a href="#">Terms &amp; Condition</a>
+                        <a href="#/">Terms &amp; Condition</a>
                       </li>
                       <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#/">Portfolio</a>
                       </li>
                     </ul>
                   </div>
@@ -60,19 +60,19 @@ const Footer = () => {
                     <h4 className="footer-widget-title">Helpful Links</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="#">Tips &amp; Tricks</a>
+                        <a href="#/">Tips &amp; Tricks</a>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#/">About Us</a>
                       </li>
                       <li>
-                        <a href="#">Privecy Policy</a>
+                        <a href="#/">Privecy Policy</a>
                       </li>
                       <li>
-                        <a href="#">Terms &amp; Condition</a>
+                        <a href="#/">Terms &amp; Condition</a>
                       </li>
                       <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#/">Portfolio</a>
                       </li>
                     </ul>
                   </div>
@@ -81,16 +81,16 @@ const Footer = () => {
                   <div className="footer-widget-box footer-gallery">
                     <h4 className="footer-widget-title">Instagram</h4>
                     <div className="foter-img grid-2">
-                      <a href="#">
+                      <a href="#/">
                         <img src={singleOne} alt="thumb" />
                       </a>
-                      <a href="#">
+                      <a href="#/">
                         <img src={singleTwo} alt="thumb" />
                       </a>
-                      <a href="#">
+                      <a href="#/">
                         <img src={singleThree} alt="thumb" />
                       </a>
-                      <a href="#">
+                      <a href="#/">
                         <img src={singleOne} alt="thumb" />
                       </a>
                     </div>
@@ -102,22 +102,22 @@ const Footer = () => {
               <p>© 2020 All Right Reserved, Ailng</p>
               <ul className="footer-social">
                 <li>
-                  <a href="#">
+                  <a href="#/">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#/">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#/">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#/">
                     <i className="fab fa-youtube" />
                   </a>
                 </li>

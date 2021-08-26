@@ -39,7 +39,7 @@ const BlogSingleComments = () => {
               <div className="blog-single-single-bio">
                 <h5 className="d-flex align-items-center justify-content-between">
                   Mickel Philip
-                  <a href="#" className="reply">
+                  <a href="#/" className="reply">
                     Reply <i className="icofont-long-arrow-right" />
                   </a>
                 </h5>

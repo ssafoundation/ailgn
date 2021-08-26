@@ -19,7 +19,7 @@ const AboutFeature = () => {
                 elitesi tempor is exercitation ullamco laboris. Lorem ipsum
                 dolor seat ameat dui too consecteture elite.
               </p>
-              <a href="#" className="theme-btn">
+              <a href="#/" className="theme-btn">
                 Get Started <i className="icofont-long-arrow-right" />
               </a>
             </div>
