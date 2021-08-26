@@ -1,0 +1,7 @@
+.blog__single_main_wrap {
+    padding-bottom: 10%;
+}
+
+.blog-single-single:nth-child(even) {
+    padding-left: 10rem;
+}
