@@ -5,6 +5,7 @@ import iconOne from "../../assets/icons/1.png";
 import iconTwo from "../../assets/icons/2.png";
 import iconThree from "../../assets/icons/feedback.png";
 import Footer from "../../Footer/Footer";
+import Header1 from "../../Header/Header1";
 import Newsletter from "../../Home/Newsletter/Newsletter";
 import "./About.css";
 import AboutFaq from "./AboutFaq";
@@ -19,6 +20,7 @@ const About = () => {
   }, [pathname]);
   return (
     <div>
+      <Header1 />
       <main className="about__main__wrap">
         <Breadcrumb />
         <div className="about-area de-pt">

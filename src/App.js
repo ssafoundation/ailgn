@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import About from "./Components/Pages/about/About";
 import Blog from "./Components/Pages/Blogs/Blog";
@@ -18,7 +17,6 @@ import { MoveToTop } from "./Helper/MoveToTop";
 function App() {
   return (
     <Router>
-      <Header />
       <span id="scrtop" onClick={MoveToTop} className="smooth-menu">
         <i className="ti-arrow-up"></i>
       </span>

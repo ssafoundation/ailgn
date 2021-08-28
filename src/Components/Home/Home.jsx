@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Header1 from "../Header/Header1";
 import AboutAgency from "./AboutAgency/AboutAgency";
 import Blog from "./Blog/Blog";
 import Faq from "./FAQ/Faq";
@@ -18,6 +19,7 @@ const Home = () => {
   }, [pathname]);
   return (
     <div>
+      <Header1 />
       <main>
         <Hero />
         <Feature />

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Footer from "../../Footer/Footer";
+import Header1 from "../../Header/Header1";
 import Newsletter from "../../Home/Newsletter/Newsletter";
 import "./ServiceSingle.css";
 import ServiceSingleBlog from "./ServiceSingleBlog";
@@ -12,6 +13,7 @@ const ServiceSingle = () => {
   }, [pathname]);
   return (
     <div>
+      <Header1 />
       <main className="service__single__main_wrap">
         <ServiceSingleBreadcrumb />
         <ServiceSingleBlog />

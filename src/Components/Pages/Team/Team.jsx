@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Footer from "../../Footer/Footer";
+import Header1 from "../../Header/Header1";
+import Newsletter from "../../Home/Newsletter/Newsletter";
+import "./Team.css";
 import TeamBreadcrumb from "./TeamBreadcrumb";
 import TeamPerson from "./TeamPerson";
 
@@ -10,8 +14,13 @@ const Team = () => {
   }, [pathname]);
   return (
     <div>
-      <TeamBreadcrumb />
-      <TeamPerson />
+      <Header1 />
+      <main className="team__main_wrap">
+        <TeamBreadcrumb />
+        <TeamPerson />
+        <Newsletter />
+      </main>
+      <Footer />
     </div>
   );
 };
