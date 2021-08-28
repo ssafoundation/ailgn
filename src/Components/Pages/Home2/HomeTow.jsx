@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Blog from "../../Home/Blog/Blog";
 import AboutFeedback from "../about/AboutFeedback";
 import About2 from "./About2/About2";
@@ -14,6 +15,10 @@ import NewsLatter2 from "./NewsLatter2/NewsLatter2";
 import Service2 from "./Services2/Service2";
 
 const HomeTow = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div>
       <Header2 />

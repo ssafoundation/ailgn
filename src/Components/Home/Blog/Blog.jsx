@@ -42,7 +42,7 @@ const Blog = () => {
           </div>
           <div className="blog-wpr grid-3">
             {BlogMain.map((blog, i) => (
-              <div className="blog-box">
+              <div key={i} className="blog-box">
                 <div className="blog-pic">
                   <img src={require(`./img/${blog.img}`).default} alt="thumb" />
                 </div>

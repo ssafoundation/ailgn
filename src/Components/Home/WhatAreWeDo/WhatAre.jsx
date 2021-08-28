@@ -39,7 +39,7 @@ const WhatAre = () => {
           </div>
           <div className="what-wpr grid-3">
             {services.map((service, i) => (
-              <div className="what-box">
+              <div key={i} className="what-box">
                 <div className="what-icon">
                   <img
                     src={require(`./img/${service.icon}`).default}

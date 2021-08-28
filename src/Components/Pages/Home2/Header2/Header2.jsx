@@ -1,7 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import MainNavItems from "../../../Header/MainNavItems";
 import logo from "./img/logo.png";
 const Header2 = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    window.history.replaceState(null, null, "/");
+  }, [pathname]);
   return (
     <>
       <header className="header">
@@ -23,89 +29,7 @@ const Header2 = () => {
                 <span className="navbar-toggler-icon" />
               </button>
               <div className="collapse navbar-collapse justify-content-sm-end">
-                <ul className="navbar-nav navbar-mobile ml-auto">
-                  <li className="nav-item dropdown fadeup">
-                    <Link className="nav-link" to="/">
-                      Home <i className="caret ti-plus" />
-                    </Link>
-                    <ul className="navbar-nav">
-                      <li className="nav-item">
-                        <Link className="nav-link" to="home-version1">
-                          Home version 1
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="/home-version2">
-                          Home version 2
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="about">
-                      About
-                    </Link>
-                  </li>
-                  <li className="nav-item dropdown fadeup">
-                    <Link className="nav-link" to="/">
-                      Pages <i className="caret ti-plus" />
-                    </Link>
-                    <ul className="navbar-nav">
-                      <li className="nav-item">
-                        <Link className="nav-link" to="service">
-                          Service
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="service-single">
-                          Service Single
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="our-project">
-                          Our Projects
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="project-single">
-                          Project Single
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="our-team">
-                          Our Team
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="404">
-                          404
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item dropdown fadeup">
-                    <Link className="nav-link" to="/">
-                      Blog <i className="caret ti-plus" />
-                    </Link>
-                    <ul className="navbar-nav">
-                      <li className="nav-item">
-                        <Link className="nav-link" to="blog">
-                          Blog
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link className="nav-link" to="blog-details">
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="contact">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
+                <MainNavItems />
               </div>
             </div>
           </div>
