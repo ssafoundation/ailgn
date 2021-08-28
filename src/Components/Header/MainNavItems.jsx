@@ -24,7 +24,7 @@ const MainNavItems = () => {
           </Link>
           <ul className="navbar-nav " ref={displayItem}>
             <li className="nav-item">
-              <Link className="nav-link" to="home-version1">
+              <Link className="nav-link" to="/">
                 Home version 1
               </Link>
             </li>
