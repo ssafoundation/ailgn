@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import About from "./Components/Pages/about/About";
@@ -51,12 +52,14 @@ function App() {
         <Route path="/404">
           <NoMatch />
         </Route>
-
         <Route path="/blog">
           <Blog />
         </Route>
         <Route path="/blog-details">
           <BlogSingle />
+        </Route>
+        <Route path="*">
+          <NoMatch />
         </Route>
       </Switch>
     </Router>
