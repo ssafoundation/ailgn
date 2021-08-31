@@ -12,6 +12,7 @@ header.header.sticky_header {
     z-index: 99999;
     top: 0;
     transition: .3s;
+    border-bottom: 1px solid #00000085;
 }
 
 .main-navigation {
