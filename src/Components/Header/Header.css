@@ -232,7 +232,7 @@ li.navDropdown:hover>ul {
         position: absolute;
         right: 0;
         width: 300px;
-        background: #d3e5f5;
+        background: #fff;
         top: 40px;
         transition: .5s;
         overflow-y: scroll;
