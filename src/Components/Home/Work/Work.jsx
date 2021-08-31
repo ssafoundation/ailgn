@@ -7,6 +7,7 @@ import WorkThree from "./img/3.png";
 import WorkFour from "./img/4.png";
 import WorkFive from "./img/5.png";
 import WorkSix from "./img/6.png";
+import "./Work.css";
 
 const Work = () => {
   return (

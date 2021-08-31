@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import "swiper/css";
 import App from "./App";
-import "./Components/assets/css/bsnav.min.css";
 import "./Components/assets/css/main.css";
 import "./Components/assets/css/responsive.css";
 import "./index.css";

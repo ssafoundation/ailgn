@@ -18,7 +18,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div>
+    <>
       <Header1 />
       <main>
         <Hero />
@@ -32,7 +32,7 @@ const Home = () => {
         <Review />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
