@@ -2,15 +2,14 @@ import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import "../../../../node_modules/react-modal-video/css/modal-video.min.css";
-import HeroOne from "./hdr-1.png";
 import "./Hero.css";
+import HeroOne from "./img/hdr-1.png";
 const Hero = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div id="home" className="hero-section">
         <div className="hero-sliderr">
-          {/* owl Slider Begin */}
           <div
             className="hero-single"
             style={{ backgroundImage: `url(${HeroOne})` }}

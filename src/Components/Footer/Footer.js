@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FooterBg from "./img/footer-bg.png";
 import singleOne from "./img/singlepost/ins-1.jpg";
 import singleTwo from "./img/singlepost/ins-2.jpg";
@@ -38,19 +39,19 @@ const Footer = () => {
                     <h4 className="footer-widget-title">Quick Links</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="#/">Tips &amp; Tricks</a>
+                        <Link to="/">Tips &amp; Tricks</Link>
                       </li>
                       <li>
-                        <a href="#/">About Us</a>
+                        <Link to="/">About Us</Link>
                       </li>
                       <li>
-                        <a href="#/">Privecy Policy</a>
+                        <Link to="/">Privecy Policy</Link>
                       </li>
                       <li>
-                        <a href="#/">Terms &amp; Condition</a>
+                        <Link to="/">Terms &amp; Condition</Link>
                       </li>
                       <li>
-                        <a href="#/">Portfolio</a>
+                        <Link to="/">Portfolio</Link>
                       </li>
                     </ul>
                   </div>
@@ -60,19 +61,19 @@ const Footer = () => {
                     <h4 className="footer-widget-title">Helpful Links</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="#/">Tips &amp; Tricks</a>
+                        <Link to="/">Tips &amp; Tricks</Link>
                       </li>
                       <li>
-                        <a href="#/">About Us</a>
+                        <Link to="/">About Us</Link>
                       </li>
                       <li>
-                        <a href="#/">Privecy Policy</a>
+                        <Link to="/">Privecy Policy</Link>
                       </li>
                       <li>
-                        <a href="#/">Terms &amp; Condition</a>
+                        <Link to="/">Terms &amp; Condition</Link>
                       </li>
                       <li>
-                        <a href="#/">Portfolio</a>
+                        <Link to="/">Portfolio</Link>
                       </li>
                     </ul>
                   </div>
@@ -81,18 +82,18 @@ const Footer = () => {
                   <div className="footer-widget-box footer-gallery">
                     <h4 className="footer-widget-title">Instagram</h4>
                     <div className="foter-img grid-2">
-                      <a href="#/">
+                      <Link to="/">
                         <img src={singleOne} alt="thumb" />
-                      </a>
-                      <a href="#/">
+                      </Link>
+                      <Link to="/">
                         <img src={singleTwo} alt="thumb" />
-                      </a>
-                      <a href="#/">
+                      </Link>
+                      <Link to="/">
                         <img src={singleThree} alt="thumb" />
-                      </a>
-                      <a href="#/">
+                      </Link>
+                      <Link to="/">
                         <img src={singleOne} alt="thumb" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -102,24 +103,24 @@ const Footer = () => {
               <p>© 2020 All Right Reserved, Ailng</p>
               <ul className="footer-social">
                 <li>
-                  <a href="#/">
+                  <Link to="/">
                     <i className="fab fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#/">
+                  <Link to="/">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#/">
+                  <Link to="/">
                     <i className="fab fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#/">
+                  <Link to="/">
                     <i className="fab fa-youtube" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

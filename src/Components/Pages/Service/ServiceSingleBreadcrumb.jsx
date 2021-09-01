@@ -20,5 +20,4 @@ const ServiceSingleBreadcrumb = () => {
     </div>
   );
 };
-
 export default ServiceSingleBreadcrumb;

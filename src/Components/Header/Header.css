@@ -175,6 +175,10 @@ li.navDropdown:hover>ul {
 
 }
 
+li.navDropdown>ul li {
+    display: block;
+}
+
 .ttt {
     margin-left: 3rem;
 }

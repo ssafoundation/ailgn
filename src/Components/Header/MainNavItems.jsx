@@ -44,7 +44,11 @@ const MainNavItems = () => {
           <ul>
             <li
               className="navDropdown"
-              onClick={() => setDropdown2(!dropdown2)}
+              onClick={() => {
+                setDropdown2(!dropdown2);
+                setDropdown(false);
+                setDropdown3(false);
+              }}
             >
               <Link to="/">Home +</Link>
               <ul
@@ -71,7 +75,14 @@ const MainNavItems = () => {
                 About
               </Link>
             </li>
-            <li className="navDropdown" onClick={() => setDropdown(!dropdown)}>
+            <li
+              className="navDropdown"
+              onClick={() => {
+                setDropdown(!dropdown);
+                setDropdown2(false);
+                setDropdown3(false);
+              }}
+            >
               <Link className="nav-link" to="/">
                 Pages +
               </Link>
@@ -117,7 +128,11 @@ const MainNavItems = () => {
 
             <li
               className="navDropdown"
-              onClick={() => setDropdown3(!dropdown3)}
+              onClick={() => {
+                setDropdown3(!dropdown3);
+                setDropdown2(false);
+                setDropdown(false);
+              }}
             >
               <Link className="nav-link" to="/">
                 Blog +

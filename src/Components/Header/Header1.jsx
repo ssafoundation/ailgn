@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-import logo from "./img/logo.png";
+import logo from "./img/logo.png"; // change logo from header>img folder & import file name
 import MainNavItems from "./MainNavItems";
 
 const Header1 = () => {

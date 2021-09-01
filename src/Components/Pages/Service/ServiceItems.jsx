@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import iconOne from "../../assets/icons/3.png";
 import iconTwo from "../../assets/icons/4.png";
 import iconThree from "../../assets/icons/5.png";
@@ -21,9 +22,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
             <div className="what-box">
@@ -36,9 +37,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
             <div className="what-box">
@@ -51,9 +52,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
             <div className="what-box">
@@ -66,9 +67,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
             <div className="what-box">
@@ -81,9 +82,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
             <div className="what-box">
@@ -96,9 +97,9 @@ const ServiceItems = () => {
                   According to lorem ipsum dolo siti ameat dui too consecteture
                   consecteture elite.
                 </p>
-                <a href="service-single.html" className="what-btn">
+                <Link href="service-single" className="what-btn">
                   Explore Service
-                </a>
+                </Link>
               </div>
             </div>
           </div>

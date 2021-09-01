@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
-import "./App.css";
+import MoveToTopBtn from "./Components/Footer/MoveToTopBtn";
 import Home from "./Components/Home/Home";
 import About from "./Components/Pages/about/About";
 import Blog from "./Components/Pages/Blogs/Blog";
@@ -13,14 +13,11 @@ import ProjectSingle from "./Components/Pages/Project/ProjectSingle/ProjectSingl
 import Service from "./Components/Pages/Service/Service";
 import ServiceSingle from "./Components/Pages/Service/ServiceSingle";
 import Team from "./Components/Pages/Team/Team";
-import { MoveToTop } from "./Helper/MoveToTop";
 
 function App() {
   return (
     <Router>
-      <span id="scrtop" onClick={MoveToTop} className="smooth-menu">
-        <i className="ti-arrow-up"></i>
-      </span>
+      <MoveToTopBtn />
       <Switch>
         <Route exact path="/">
           <Home />
